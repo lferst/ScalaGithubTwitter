@@ -12,9 +12,9 @@ Personal Project used to learn how to deal with Scala
 
 4 - Checkout or download project to current folder
 
-5 - Run sbt
+5 - Run sbt (Sbt should recognise build.sbt file in the root folder and download all dependencies) 
 
-Sbt should recognise build.sbt file in the root folder, download all dependencies and execute Main class
+6 - From Sbt prompt command execute "Run". ex.: sbt:reactive> Run 
 
 
 

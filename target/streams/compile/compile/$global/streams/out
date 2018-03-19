@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/lucasferst/IdeaProjects/reactive/src/main/scala/Main.scala:24:54: value items is not a member of Seq[reactive.pojos.GithubItem][0m
+[0m[[0m[31merror[0m] [0m[0m    val projectsTweets = for (item <- githubResponse.items) yield new TwitterUtil().getProjectTweets(item.name, item.description)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

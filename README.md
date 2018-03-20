@@ -1,7 +1,7 @@
 
 # Scala Github/Twitter Search 
 
-Personal Project used to learn how to deal with Scala
+Personal Project used to learn how to deal with Scala. It searches for projects on GitHub, then for each project found, it look up Twitter for tweets that mention it and finally as an output print a summary of each project with a short list of recent tweets, in JSON format
 
 ## Getting Started
 

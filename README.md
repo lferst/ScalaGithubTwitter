@@ -16,7 +16,9 @@ mkdir Reactive
 cd Reactive
 ```
 4 - Git clone or download project to current folder
-
+```
+git clone https://github.com/lferst/ScalaGithubTwitter.git
+```
 5 - Edit file src/main/resources/application.conf and enter Twitter account details 
 
 6 - Run sbt (Sbt should recognise build.sbt file in the root folder and download all dependencies) 

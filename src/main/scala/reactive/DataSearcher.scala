@@ -1,7 +1,7 @@
 /**
   * Data Searcher
   *
-  *  @author Lucas Ferst
+  * @author Lucas Ferst
   *
   **/
 package reactive
@@ -26,7 +26,7 @@ class DataSearcher (twitterConnection: TwitterConnection, githubConnection: Gith
     * @param projectName
     *             Project Name
     * @return
-    *         List of Tweets
+    *             List of Tweets
     *
     **/
   def search (projectName: String):Seq[Tweets] = {

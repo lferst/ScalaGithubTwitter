@@ -1,7 +1,7 @@
 /**
-  *  Trait for Github Connection
+  * Trait for Github Connection
   *
-  *  @author Lucas Ferst
+  * @author Lucas Ferst
   *
   **/
 package reactive.connection

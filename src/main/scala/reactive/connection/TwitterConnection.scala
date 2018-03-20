@@ -1,7 +1,7 @@
 /**
-  *  Trait for Twitter Connection and Direct Search
+  * Trait for Twitter Connection and Direct Search
   *
-  *  @author Lucas Ferst
+  * @author Lucas Ferst
   *
   **/
 package reactive.connection

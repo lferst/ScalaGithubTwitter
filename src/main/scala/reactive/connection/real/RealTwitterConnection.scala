@@ -1,7 +1,7 @@
 /**
   * Utility Class for Interaction with Twitter
   *
-  *  @author Lucas Ferst
+  * @author Lucas Ferst
   *
   **/
 package reactive.connection.real

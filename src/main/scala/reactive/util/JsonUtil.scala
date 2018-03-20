@@ -2,7 +2,7 @@
 /**
   * Utility Class for Json Marshall Operations
   *
-  *  @author Lucas Ferst
+  * @author Lucas Ferst
   *
   **/
 package reactive.util
@@ -21,7 +21,7 @@ class JsonUtil {
     * @param json
     *             Json String to be unMarshelled
     * @return
-    *         unMarshelled Github object
+    *             unMarshelled Github object
     *
     **/
   def unMarshalGithubJson(json: String): Github = {

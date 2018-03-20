@@ -14,7 +14,7 @@ trait GithubConnection {
     * @param name
     *             Project Name
     * @return
-    *         GitHub populated object containing list of projects
+    *             GitHub populated object containing list of projects
     *
     **/
   def searchGitHubProjectsByName(name: String):String

@@ -7,11 +7,11 @@ Personal Project used to learn how to deal with Scala
 
 1 - Install sbt: https://www.scala-sbt.org/1.0/docs/Setup.html
 
-2 - Create a folder. 
+2 - Create a folder 
 ```
 mkdir Reactive
 ```
-3 - Get into the folder: ex.: cd Reactive 
+3 - Get into the folder 
 ```
 cd Reactive
 ```

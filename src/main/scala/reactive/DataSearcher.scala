@@ -6,9 +6,12 @@
   **/
 package reactive
 
+import java.io.IOException
+
 import reactive.connection.{GithubConnection, TwitterConnection}
-import reactive.pojos.Tweets
+import reactive.pojos.{Tweet, Tweets}
 import reactive.util.{JsonUtil, TwitterUtility}
+import twitter4j.TwitterException
 
 /**
   * @param twitterConnection
@@ -35,9 +38,15 @@ class DataSearcher (twitterConnection: TwitterConnection, githubConnection: Gith
     val githubResponse = new JsonUtil().unMarshalGithubJson(githubConnection.searchGitHubProjectsByName(projectName))
 
     println("Finding Tweets ...")
-    val projectsTweets = for (item <- githubResponse.items) yield new TwitterUtility(twitterConnection).getProjectTweets(item.name, item.description)
 
-    projectsTweets
+    try {
+       val projectsTweets = for (item <- githubResponse.items) yield new TwitterUtility(twitterConnection).getProjectTweets(item.name, item.description)
+       return projectsTweets
+    } catch {
+       case e: TwitterException =>  println("Error connecting to Twitter, please Verify user credentials in Application.conf")
+   }
+
+    Seq[Tweets]()
   }
 
 }

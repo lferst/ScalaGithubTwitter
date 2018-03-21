@@ -44,7 +44,7 @@ class DataSearcher (twitterConnection: TwitterConnection, githubConnection: Gith
        return projectsTweets
     } catch {
        case e: TwitterException =>  println("Error connecting to Twitter, please Verify user credentials in Application.conf")
-   }
+    }
 
     Seq[Tweets]()
   }
